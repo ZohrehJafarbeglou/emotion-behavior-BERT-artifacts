@@ -1,0 +1,21 @@
+# emotion-behavior-BERT-artifacts
+“Artifacts (data, code, figures) for the emotion-behavior BERT paper”)
+## Code
+
+The `code` folder contains the Python script for training and evaluating the Emotion-Behavior BERT model. 
+
+**File: `NEW_AMOZESH.py`**
+- Loads and preprocesses the Excel datasets.
+- Encodes emotions and behaviors.
+- Splits data into train and test sets.
+- Defines PyTorch Dataset and DataLoader.
+- Fine-tunes a multilingual BERT model.
+- Implements early stopping and saves the best model.
+- Evaluates model performance on test data.
+- Provides a prediction function for new summaries.
+- Plots emotion and behavior percentages.
+
+**Dependencies**
+- Python 3.8+
+- pandas, sklearn, torch, transformers, joblib, tqdm, matplotlib
+
